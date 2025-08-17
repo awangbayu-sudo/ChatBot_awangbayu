@@ -5,7 +5,7 @@ import google.generativeai as genai
 
 # Load API Key dari .env
 load_dotenv()
-GOOGLE_API_KEY = os.getenv("AIzaSyAQAuYmToezZ-M51JLLgmh6wGVn5AqwFPE")
+GOOGLE_API_KEY = os.getenv("GOOLE_API_KEY_AWANG_BAYU")
 
 # Konfigurasi halaman
 st.set_page_config(
